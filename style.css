@@ -1,0 +1,41 @@
+.body{
+    background-color: lightgreen;
+    border:3px solid green;
+    border-radius: 5px;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background: linear-gradient(rgb(77, 211, 77),rgb(225, 225, 16));
+    width:90vmin;
+    height:90vmin;
+    border:3px solid black;
+    display:grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+#scoreBox{
+    position:absolute;
+    top:15px;
+    right: 630px;
+    font-size:21px;
+    font-weight:bold;
+}
+.head{
+    border-radius:10px;
+    background-color: red;   
+}
+.snake{
+    background-color: purple;
+    border-radius:13px;
+   
+    
+}
+.food{
+    border:2px solid black;
+    border-radius:20px;
+   
+    background-color: yellow;
+}
